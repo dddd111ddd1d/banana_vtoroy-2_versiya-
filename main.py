@@ -23,6 +23,7 @@ class Person:
     print(self.phone)
     print(self.email)
     print(self.isMale)
+    print(self.nation)
 
 try:
   a = input("ckilku treba pratcuvnukiv?")
@@ -44,8 +45,8 @@ rabotnici = []
 
 # генеруємо колектив
 while a != 0:
-  n = input("vvedit nasionalnict" + a + )
-  p = Person('fi', gen)
+  n = input("vvedit nasionalnict")
+  p = Person(n, gen)
   rabotnici.append(p)
   a -= 1
 
